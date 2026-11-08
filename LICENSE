@@ -1,0 +1,47 @@
+Han Tiles dictionary data (search_index.json)
+Copyright © 2026 Andrej Balas
+
+search_index.json combines and adapts data from the sources below. Han Tiles selected,
+reformatted and merged their entries; build_search_index.py shows exactly how.
+
+The data as a whole is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Sources:
+
+1. CC-CEDICT
+   By MDBG and the CC-CEDICT contributors. https://cc-cedict.org/wiki/
+   Licensed under CC BY-SA 4.0.
+
+2. Make Me a Hanzi, dictionary.txt (character readings and definitions)
+   Copyright © 2016 Shaunak Kishore. https://github.com/skishore/makemeahanzi
+   Derived from Unihan and CJKlib. You can redistribute and/or modify this data under
+   the terms of the GNU Lesser General Public License as published by the Free
+   Software Foundation, either version 3 of the license, or (at your option) any later
+   version. See LGPL-3.0.txt (which also contains the Unicode, Inc. notice for the
+   Unihan data) and GPL-3.0.txt.
+
+3. Complete HSK Vocabulary
+   Copyright © 2026 Yanis Zafirópulos. https://github.com/drkameleon/complete-hsk-vocabulary
+   Licensed under the MIT License:
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+The build script, build_search_index.py, is also licensed under CC BY-SA 4.0.
